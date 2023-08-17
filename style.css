@@ -1,0 +1,478 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+}
+.background_clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9) {
+    .background_clip{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9){
+    .background_clip{
+        width: 100%;
+        height: auto;
+    }
+}
+.logo{
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.homeitem{
+    display: inline-block;
+    margin: 5px 20px;
+    text-decoration: none;
+    
+}
+.link{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.link1{                     /*home */
+    text-decoration: none;
+    color: orangered;
+}
+ .link5{                      /*reservation*/
+    margin-right: 50px;
+    text-decoration: none;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 20px;
+    width: 50px;
+    height: 50px; 
+    color: white; 
+    
+}
+
+
+.img2{
+    text-align: center; 
+    margin-top: 40px;  
+}
+#first{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+}
+#second{
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+#third{
+    text-align: center;
+    margin-left:100px ;
+    margin-right: 100px;
+    color: white;
+}
+.button{
+    text-align: center;
+    padding-top: 40px;  
+}
+#reserve{
+    text-align: center;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 15px;
+    text-decoration: none;
+    color: white; 
+    padding-right: 20px;
+    margin: 5px 20px;
+    
+     
+
+}
+#list{
+    text-align: center;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 15px;
+    text-decoration: none;
+    color: white; 
+    padding-left: 20px;
+    margin: 5px 20px;
+}
+#icon{
+    margin-left: 270px;
+}
+#ichead{
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 40px; 
+    font-family: 'Playfair Display', serif;  
+    animation: normal;
+}
+
+#img3{
+    margin-left: 190px;
+    margin-bottom: 10px;
+}
+#para2{
+    margin-left: 220px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.para3{
+    margin-left: 100px;
+    text-align: center;
+    margin-right: 870px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#reserve2{
+    margin-left: 230px;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 15px;
+    text-decoration: none;
+    color: white; 
+}
+.thirddiv{
+    text-decoration: none;
+}
+#img4{
+    display: flex;
+    float: right;
+    margin-right: 40px;
+    padding-right: 50px;
+}
+#img5{
+    display: flex;
+    float: right;
+    margin-right: 70px;
+    
+}
+
+#para4{
+    text-align: center;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 60px;
+    
+    
+}
+#para5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+     color: white; 
+    font-size: 20px;
+}
+.img6{
+    margin-left: 570px;
+    margin-top: 30px;
+}
+#para6{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: white; 
+    font-size: 20px;
+    
+}
+.transmove{ 
+    /* width: 100%; 
+    /* margin-top: 200px;  */
+    margin-bottom: 0px;
+    background: url("https://previews.123rf.com/images/okkijan/okkijan1608/okkijan160800023/60821933-food-background-assortment-of-fresh-vegetables-around-the-cutting-board-on-a-dark-background-top.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat
+    
+}
+#oneinone{
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#oneintwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#oneinthree{
+    margin-left: 400px;
+    margin-top: -360px;
+    
+}
+#twoinone{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: -320px;
+}
+#twointwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 750px; 
+    margin-top: 50px; 
+}
+#twointhree{
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+#threeinone{
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#threeintwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#threeinthree{
+    margin-left: 400px;
+    margin-top: -380px;
+}
+#fourinone{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: -320px;
+}
+#fourintwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 750px; 
+    margin-top: 50px;
+}
+#fourinthree{
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+#fiveinone{
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#fiveintwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    margin-top: 50px; 
+}
+#fiveinthree{
+    margin-left: 400px;
+    margin-top: -330px;
+}
+#sixinone{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: -320px;
+}
+#sixintwo{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 750px; 
+    margin-top: 50px;
+}
+#sixinthree{
+    margin-left: 1000px;
+    margin-top: -300px;
+}
+
+/* 2nd trans-image */
+
+.transimg2{
+    /* position: sticky; */
+    
+}
+#para7{
+    text-align: center;
+    color: orange;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#para8{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 80px;
+    color: white; 
+}
+
+#para9{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+ .transmove2{
+    background: url("https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2020-05-How-To-Succotash%2FHT-Succotash269");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+} 
+
+#icon2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#reserve3{
+    text-align: center;
+    background-color: orange;
+    border-radius: 40%;
+    padding: 15px;
+    margin-left: 610px;
+    text-decoration: none;
+    color: white; 
+    margin-top: 30px;
+}
+#para10{
+    text-align: center;
+    color: orange;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.img7{
+    margin-left: 570px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+#para11{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+#para12{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+/* links  */
+
+.iconset{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon3 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon3 i{
+    font-size: 30px;
+    color: white
+}
+.icon3:hover i{
+     background-image: linear-gradient(to bottom right, yellow,red);
+     width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+}
+.icon3:hover i{
+    color: white;
+    animation: shake 0.75s infinite;
+}
+.heading5{
+    text-align: center;
+}
+@keyframes shake {
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(15deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+}
+
+#firstpara{
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-top: -100px;
+    margin-bottom: 0px;
+}
+#secondpara{
+    margin-top: -10px;
+    margin-left: 1050px;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 0px;
+}
+.lastsection{
+    margin-top: -600px; 
+    margin-bottom: 0px;
+}
+.lastdiv{
+}
+#arrowmark{
+    float: right;
+    margin-right: 20px;
+    background-image: linear-gradient(to bottom right, yellow,red);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60%;
+    
+
+}
+#arrowmark:hover i{
+    color: white;
+}
+.arrow{
+    margin-top: -650px;
+    position: fixed;
+}
+.gotoup{
+    position: fixed;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(to bottom right, yellow,red);
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
